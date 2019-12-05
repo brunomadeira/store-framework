@@ -42,13 +42,22 @@
     ]
 },
   "stack-layout#brand": {
-    "props": { 
-      "width": 30,
-      "displayMode": "logo"
-    },
     "children": [
       "product-images",
       "product-brand"
     ]
+  },
+  "product-brand": {
+    "props": { 
+      "width": 30,
+      "displayMode": "logo"
+    }
+  },
+  "sku-selector":{
+    "props":{
+      "initialSelection": "empty",
+      "showValueNameForImageVariation": true,
+      "showVariationsErrorMessage": true
+    }
   }
 }
