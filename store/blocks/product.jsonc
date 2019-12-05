@@ -49,7 +49,7 @@
   },
   "product-brand": {
     "props": { 
-      "width": 30,
+      "height": 30,
       "displayMode": "logo"
     }
   },
