@@ -40,7 +40,8 @@
   ],
   "props":{
     "width": "30%"
-  },
+  }
+},
 "flex-layout.col#search": {
   "children": [
     "search-content"
@@ -51,6 +52,5 @@
 },
 "gallery": {
   "blocks": ["product-summary.shelf"]
-}
 }
 }
